@@ -95,6 +95,32 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "PharmacyAPI.Controllers.MedicineController",
+    "Method": "GetMedicine",
+    "RelativePath": "api/Medicine/DTO",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PharmacyAPI.Controllers.MedicineController",
+    "Method": "SearchMedicine",
+    "RelativePath": "api/Medicine/Search",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "medicineName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "PharmacyAPI.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",

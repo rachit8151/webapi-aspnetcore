@@ -130,6 +130,39 @@
         }
       }
     },
+    "/api/Medicine/DTO": {
+      "get": {
+        "tags": [
+          "Medicine"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Medicine/Search": {
+      "get": {
+        "tags": [
+          "Medicine"
+        ],
+        "parameters": [
+          {
+            "name": "medicineName",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Medicine/AddMultiple": {
       "post": {
         "tags": [
@@ -215,8 +248,7 @@
       "Medicine": {
         "required": [
           "expiryDate",
-          "medicineName",
-          "price"
+          "medicineName"
         ],
         "type": "object",
         "properties": {
@@ -229,10 +261,14 @@
             "type": "string"
           },
           "price": {
+            "maximum": 10000,
+            "minimum": 0.01,
             "type": "number",
             "format": "double"
           },
           "stock": {
+            "maximum": 2147483647,
+            "minimum": 1,
             "type": "integer",
             "format": "int32"
           },

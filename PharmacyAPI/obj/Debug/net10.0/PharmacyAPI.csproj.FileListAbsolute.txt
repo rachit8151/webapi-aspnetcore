@@ -160,3 +160,4 @@ D:\DotNetCore\PharmacyAPI\PharmacyAPI\obj\Debug\net10.0\ref\PharmacyAPI.dll
 D:\DotNetCore\PharmacyAPI\PharmacyAPI\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\DotNetCore\PharmacyAPI\PharmacyAPI\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\DotNetCore\PharmacyAPI\PharmacyAPI\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\DotNetCore\PharmacyAPI\PharmacyAPI\obj\Debug\net10.0\PharmacyAPI.sourcelink.json
